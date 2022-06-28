@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: Magilio;
+    src: url('./resource/Magilio.otf') format('opentype');
+}
+
+.background {
+    background-image: url('./resource/background.jpg');
+}
+
+.background-portrait {
+    background-image: url('./resource/bg-portrait.png');
+}
+
+body {
+    font-family: Magilio, Arial, Helvetica, sans-serif;
+}
